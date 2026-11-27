@@ -1,0 +1,36 @@
+# --- Visual Studio / .NET ---
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pdb
+*.cache
+*.log
+TestResults/
+
+# --- NuGet (paketler restore ile geri gelir) ---
+packages/
+*.nupkg
+!**/packages/build/
+
+# --- Yerel / gizli ayarlar ---
+# Kendi bilgisayarınıza özel bağlantı dizesi (örnek: App.Local.config.example)
+App.Local.config
+
+# --- Veritabanı dosyaları ve yedekler (asla repoya girmemeli) ---
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# --- İşletim sistemi ---
+Thumbs.db
+Desktop.ini
+.DS_Store

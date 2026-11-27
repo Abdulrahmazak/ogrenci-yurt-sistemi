@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  YEREL AYAR ŞABLONU
+  1) Bu dosyayı aynı klasöre "App.Local.config" adıyla kopyalayın.
+  2) Data Source değerini kendi SQL Server örneğinize göre değiştirin
+     (ör. "." , ".\SQLEXPRESS", "BILGISAYAR_ADI").
+  3) App.Local.config .gitignore'dadır; repoya girmez.
+  Dosya yoksa App.config'teki LocalDB bağlantısı kullanılır.
+-->
+<appSettings>
+  <add key="OgrenciYurtConnectionString"
+       value="Data Source=.;Initial Catalog=Ogrenci_Yurt_Sistemi;Integrated Security=True;TrustServerCertificate=True" />
+</appSettings>
